@@ -1,0 +1,36 @@
+
+       //Coditional example//
+let age = 101
+
+if (age < 100)
+{
+    console.log("Not elegible")
+}
+else if(age == 100){
+console.log("Here is your birthday card from the King!")
+}
+else {
+    console.log("Not elegible, you have already gotten one")
+}
+
+
+****ARRAY**** PRACTICE
+let myArray=[34,56,76]
+console.log(myArray[2])
+
+**LOOP With ARRAY
+let messages = [
+    "Hey, how's it going?",        
+    "I'm great, thank you! How about you?",
+    "All good. Been working on my portfolio lately.",
+    "Same here!",
+    "Great to hear"
+]
+
+for (let i= 0; i<5; i += 1){
+    console.log(messages[i])
+} 
+
+ *******hardcoded value
+// let firstCard = 10    
+// let secondCard = 4
